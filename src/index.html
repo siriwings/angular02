@@ -7,6 +7,35 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    ol, ul {
+      list-style: none;
+    }
+    @media (min-width: 768px) {
+
+      header .inner:after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+
+      header .inner h1 {
+        float: left;
+        font-size: 30px;
+        width: auto;
+      }
+
+      header .inner nav {
+        float: right;
+        width: auto;
+      }
+    }
+  </style>
 </head>
 <body>
   <app-root>Loading...</app-root>
